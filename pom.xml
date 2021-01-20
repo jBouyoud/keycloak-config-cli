@@ -57,7 +57,7 @@
 
         <keycloak.version>10.0.2</keycloak.version>
         <jackson.version>2.12.0</jackson.version>
-        <testcontainers.version>1.15.0</testcontainers.version>
+        <testcontainers.version>1.15.1</testcontainers.version>
 
         <maven-release-plugin.version>3.0.0-M1</maven-release-plugin.version>
         <jacoco.version>0.8.5</jacoco.version>
@@ -411,7 +411,7 @@
 					<plugin>
 						<groupId>org.graalvm.nativeimage</groupId>
 						<artifactId>native-image-maven-plugin</artifactId>
-						<version>20.2.0</version>
+						<version>21.0.0</version>
 						<configuration>
                             <imageName>keycloak-config-cli-native</imageName>
                             <buildArgs>--no-fallback --no-server
